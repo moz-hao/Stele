@@ -1,0 +1,73 @@
+# timeline.yaml — 开屏"摇一摇"广告争议
+# 采集时间: 2026-10-29
+# 原则: 每个节点带来源；只有媒体转述的标注 tier 与缺口
+
+meta:
+  topic: 开屏广告"摇一摇"跳转争议
+  span: "2021 → 2026（仍在持续）"
+  collected_at: "2026-10-29T16:20:00+08:00"
+  why_archived: 热议极高、规范明确、屡禁不止，且讨论被购物节周期性冲刷，缺乏长期记录
+
+nodes:
+  - date: "2021-11"
+    event: 江苏省消保委发布调查报告，指出过于灵敏的"摇一摇"广告涉嫌侵犯消费者权益。
+    source: 重庆日报 2026-05-31 回溯
+    url: "https://www.cqrb.cn/caijingzonghe/2026-05-31/2685684_pc.html"
+    tier: reports
+    note: 调查报告原件未获取，此为依据媒体回溯的记载。
+
+  - date: "2022-12"
+    event: 工信部联合多家企业制定《APP用户权益保护测评规范》，细化 App 信息窗口通过"摇一摇"触发页面跳转的相关参数。
+    source: 工人日报（中国青年报转载）2023-11-22
+    url: "https://s.cyol.com/articles/2023-11/22/content_VYL3vMSl.html"
+    tier: reports
+    status: 规范原文 pending-source
+
+  - date: "2023-02"
+    event: 工信部发布《关于进一步提升移动互联网应用服务能力的通知》，明确不得利用高灵敏度"摇一摇"等易造成误触发的方式诱导用户操作。
+    source: 工人日报（中国青年报转载）2023-11-22
+    url: "https://s.cyol.com/articles/2023-11/22/content_VYL3vMSl.html"
+    tier: facts
+    status: 通知原文 pending-source
+
+  - date: "2023-11"
+    event: "双11"期间"摇一摇"跳转广告再度引发热议；江苏省消保委发起投票，77.22% 经常遇到、94.94% 表示厌恶、93.67% 认为侵权、74.68% 支持叫停。
+    source: 工人日报（中国青年报转载）2023-11-22
+    url: "https://s.cyol.com/articles/2023-11/22/content_VYL3vMSl.html"
+    tier: facts
+    note: 消保委自行发起的网络投票，非随机抽样，存在自选择偏差。
+
+  - date: "2025-09"
+    event: 博主「销冠李老板」因持续发布批评开屏广告的内容，多账号遭全网封禁。
+    source: 微博「a无小邪」2025-09-24 / 新浪新闻
+    url: "https://www.sina.cn/news/detail/5346591208899291.html"
+    tier: claims
+    note: 封禁事实有平台侧可观测痕迹，但"因批评开屏广告被封"的因果未被官方确认。
+    related: ../DavidGe-Events/
+
+  - date: "2026-05"
+    event: 工信部（工信微报）发布《关于侵害用户权益行为的 APP（SDK）通报》，31 款 App 及 SDK 存在侵害用户权益行为，其中 7 款涉及窗口乱跳转（信息窗口点击乱跳转、滑动乱跳转）。
+    source: 重庆日报 2026-05-31
+    url: "https://www.cqrb.cn/caijingzonghe/2026-05-31/2685684_pc.html"
+    tier: facts
+    status: 通报原文 pending-source
+
+  - date: "2026-05"
+    event: 媒体将 App 窗口乱跳转称为"数字牛皮癣"，指出部分跳转专门瞄准银发群体，老人手机常莫名多出新 App。
+    source: 重庆日报 2026-05-31
+    url: "https://www.cqrb.cn/caijingzonghe/2026-05-31/2685684_pc.html"
+    tier: reports
+
+pending:
+  - item: 工信部《关于进一步提升移动互联网应用服务能力的通知》原文
+    status: pending-source
+    channels_checked: [工信部官网, 中国政府网, 媒体转述]
+  - item: 工信部《APP用户权益保护测评规范》原文
+    status: pending-source
+    channels_checked: [工信部官网, 全国标准信息公共服务平台]
+  - item: 工信部 2026-05 通报原文及 31 款 App 名单
+    status: pending-source
+    channels_checked: [工信微报公众号, 工信部官网]
+  - item: 江苏省消保委 2021 年度调查报告原件
+    status: pending-source
+    channels_checked: [江苏省消保委官网, 媒体报道回溯]

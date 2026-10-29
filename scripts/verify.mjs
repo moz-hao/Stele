@@ -122,7 +122,53 @@ if (exists('02-Annals/DavidGe-Events')) {
   }
 }
 
-/* ---------- 验收 7：混淆自检（仅 md/yaml，page.html 为隔离证据豁免） ---------- */
+/* ---------- 验收 6b：每个 Annals 档案的通用结构 ---------- */
+const annalsDirs = fs.readdirSync(path.join(ROOT, '02-Annals'), { withFileTypes: true })
+  .filter((e) => e.isDirectory() && !e.name.startsWith('_'))
+  .map((e) => e.name);
+
+for (const d of annalsDirs) {
+  check(exists(path.join('02-Annals', d, 'README.md')), `${d}: 有 README.md`);
+  check(exists(path.join('02-Annals', d, 'sources.md')), `${d}: 有 sources.md`);
+  check(
+    exists(path.join('02-Annals', d, 'timeline.yaml')) || exists(path.join('02-Annals', d, 'events.yaml')),
+    `${d}: 有 timeline.yaml 或 events.yaml`
+  );
+}
+
+// 议题型档案必须有四层（facts/reports/claims + 第四层）
+for (const d of ['2025-WHU-Library', 'Shake-Ad-Controversy']) {
+  for (const layer of ['01-facts.md', '02-reports.md', '03-claims.md']) {
+    check(exists(path.join('02-Annals', d, layer)), `${d}: 四层之一 ${layer}`);
+  }
+  const fourth = ['04-debunked.md', '04-misconceptions.md'].some((f) =>
+    exists(path.join('02-Annals', d, f))
+  );
+  check(fourth, `${d}: 存在第四层（debunked 或 misconceptions）`);
+}
+// 第三层必须自证"这是观点"
+for (const d of ['2025-WHU-Library', 'Shake-Ad-Controversy']) {
+  const p = path.join(ROOT, '02-Annals', d, '03-claims.md');
+  if (fs.existsSync(p)) {
+    check(/未经证实|观点/.test(fs.readFileSync(p, 'utf8')), `${d}: 03-claims 标注为观点`);
+  }
+}
+// 档案目录不得含音视频本体
+const mediaAll = annalsDirs.flatMap((d) => {
+  const out = [];
+  const walk2 = (p) => {
+    for (const e of fs.readdirSync(p, { withFileTypes: true })) {
+      const fp = path.join(p, e.name);
+      if (e.isDirectory()) walk2(fp);
+      else if (/\.(mp4|flv|mkv|webm|m4a|mp3|wav)$/i.test(e.name)) out.push(fp);
+    }
+  };
+  walk2(path.join(ROOT, '02-Annals', d));
+  return out;
+});
+check(mediaAll.length === 0, `Annals 全域无音视频本体（发现 ${mediaAll.length} 个）`);
+
+
 const TARGET_DOMAINS = [
   'trust-web3.cn',
   'metamaskwallet.com.cn',
