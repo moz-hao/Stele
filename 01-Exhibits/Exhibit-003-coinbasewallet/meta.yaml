@@ -22,7 +22,9 @@ source:
   cross_check: Phishing.Database (MIT)
   verified_at: "2026-10-29T15:00:00+08:00"
 evidence:
-  note: "仿冒 Coinbase 钱包页面，其 APK 托管在京东云 cn-north-1 对象存储桶中——属于合法云服务被滥用，可同步向云服务商提交 abuse 投诉。注意：该页在无头浏览器中渲染为空白（body 文本长度 0、DOM 约 1.6KB、纯黑背景），而 curl 静态抓取返回约 58KB 完整 HTML，判断其针对自动化环境做了差异化处理；页面实质内容以 page.html 为准。"
+  note: "仿冒 Coinbase 钱包页面，其 APK 托管在京东云 cn-north-1 对象存储桶中——属于合法云服务被滥用，可同步向云服务商提交 abuse 投诉。注意：该页在无头浏览器中渲染为空白（body 文本长度 0、DOM 约 1.6KB、纯黑背景），而 curl 静态抓取返回约 58KB 完整 HTML，判断其针对自动化环境做了差异化处理；页面实质内容以 page.html 为准。载荷现状（2026-10-29 实测）：APK 地址返回 403，京东云错误信息为 pin=[caishendao5918] is disabled，即承载该文件的云账号已被停用；但仿冒页面本身仍在运营。"
+  payload_status: dead-403
+  bucket_owner_hint: "caishendao5918（京东云账号，已停用）"
 legal:
   classification: 诈骗类
   statutes:

@@ -23,7 +23,7 @@ verified:
   bytes: 13418
   method: curl + 浏览器 UA / Playwright 渲染
 evidence:
-  note: "★ 团伙关联证据：该站分发的 APK 与 EX-003（coinbasewallet[.]com[.]cn）指向**完全相同的 URL**（京东云 cn-north-1 对象存储桶内的 CoinbaseWallet.apk），可判定为同一投放方的多域名站群。该域名不在公开钓鱼库中，属原创发现。"
+  note: "★ 团伙关联证据：该站分发的 APK 与 EX-003（coinbasewallet[.]com[.]cn）指向**完全相同的 URL**（京东云 cn-north-1 对象存储桶内的 CoinbaseWallet.apk），可判定为同一投放方的多域名站群。该域名不在公开钓鱼库中，属原创发现。载荷现状（2026-10-29 实测）：该 APK 地址返回 403，京东云错误信息为 pin=[caishendao5918] is disabled——承载文件的云账号已被停用，但仿冒站点仍在运营。"
 legal:
   classification: 诈骗类
   statutes:

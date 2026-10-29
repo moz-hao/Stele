@@ -50,7 +50,9 @@ const DATA = [
     payload: ['https://app-store.s3.cn-north-1.jdcloud-oss.com/CoinbaseWallet.apk'],
     decoy: [],
     hosting: '京东云对象存储（托管恶意的 APK）',
-    evidence_note: '仿冒 Coinbase 钱包页面，其 APK 托管在京东云 cn-north-1 对象存储桶中——属于合法云服务被滥用，可同步向云服务商提交 abuse 投诉。注意：该页在无头浏览器中渲染为空白（body 文本长度 0、DOM 约 1.6KB、纯黑背景），而 curl 静态抓取返回约 58KB 完整 HTML，判断其针对自动化环境做了差异化处理；页面实质内容以 page.html 为准。',
+    evidence_note: '仿冒 Coinbase 钱包页面，其 APK 托管在京东云 cn-north-1 对象存储桶中——属于合法云服务被滥用，可同步向云服务商提交 abuse 投诉。注意：该页在无头浏览器中渲染为空白（body 文本长度 0、DOM 约 1.6KB、纯黑背景），而 curl 静态抓取返回约 58KB 完整 HTML，判断其针对自动化环境做了差异化处理；页面实质内容以 page.html 为准。载荷现状（2026-10-29 实测）：APK 地址返回 403，京东云错误信息为 pin=[caishendao5918] is disabled，即承载该文件的云账号已被停用；但仿冒页面本身仍在运营。',
+    payload_status: 'dead-403',
+    bucket_owner_hint: 'caishendao5918（京东云账号，已停用）',
     statutes: ['刑法第266条（诈骗罪）', '反电信网络诈骗法第38条', '网络安全法第27条'],
   },
   {
@@ -150,6 +152,10 @@ for (const d of DATA) {
   for (const dm of d.domains) note = note.split(dm).join(obf(dm));
   lines.push('evidence:');
   lines.push(`  note: ${q(note)}`);
+  if (d.payload_status) {
+    lines.push(`  payload_status: ${d.payload_status}`);
+    lines.push(`  bucket_owner_hint: ${q(d.bucket_owner_hint)}`);
+  }
   lines.push('legal:');
   lines.push('  classification: 诈骗类');
   lines.push('  statutes:');

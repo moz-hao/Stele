@@ -82,6 +82,49 @@ app-store.s3.cn-north-1.jdcloud-oss.com/CoinbaseWallet.apk
 
 ---
 
+## 载荷溯源与国内主体扫描
+
+两份过程记录，都放在 [`_discovery/`](_discovery/)：
+
+| 文件 | 内容 |
+|---|---|
+| [`payload-forensics.md`](_discovery/payload-forensics.md) | 四条下载地址的当前状态；京东云存储桶的**账号归属线索** |
+| [`findings-cn.md`](_discovery/findings-cn.md) | 国内银行/支付/运营商/电商的扫描结果——**阴性**，含原因分析 |
+
+### 两条值得单独看的结论
+
+**一、存储桶暴露了投放方的云账号**
+
+对承载 `CoinbaseWallet.apk` 的京东云存储桶发起列举请求，服务端返回：
+
+```text
+<Code>AccountProblem</Code>
+<Message>pin=[caishendao5918] is disabled</Message>
+```
+
+`pin` 是该桶所属的京东云账号标识，状态为已停用。公开钓鱼库只记录"哪个域名恶意"，不会给出"背后哪个云账号"——这条线索可直接交给警方和云服务商追溯实名主体。
+
+**二、唯一仍在分发的安装包**
+
+| 载荷 | 状态 |
+|---|---|
+| `down.cryptowalletapp[.]cn/trustwallet.apk` | 已失效 |
+| `crypto-wallet[.]im/MetaMask.apk` | 已失效 |
+| `down.dappstroe[.]net/trustwallet.apk`（EX-012） | ⚠️ **200 / 5,226,064 字节，仍在分发** |
+| 京东云 `CoinbaseWallet.apk` | 403，账号停用 |
+
+**本仓库不下载该文件**，只记录其可用状态。下架它应作为优先事项。
+
+### 国内主体扫描：没抓到，但值得记录
+
+对 17 个国内品牌（8 家银行、支付、3 家运营商、电商、12306）生成 700+ 变体，60 个命中品牌词，逐个核查后**没有一条达到收录门槛**——全是域名出售页、企业自有保护域名、SEO 引流站（如 `12306[.]org[.]cn`，无凭据收集）或跳转劫持页。
+
+原因写在 [`findings-cn.md`](_discovery/findings-cn.md)：国内大品牌的域名变体被域名投资人占满，而真正的短信钓鱼用随机域名（如本仓库早期排除的 `wcnv20[.]cn`），**枚举法对这类目标无效**。
+
+阴性结果照样记录——否则下一个人会以为没跑过。
+
+---
+
 ## 这批目标为什么构成"违法"
 
 两个层面的问题叠加：

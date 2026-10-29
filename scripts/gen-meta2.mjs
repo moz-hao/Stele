@@ -41,7 +41,7 @@ const DATA = [
     decoy: [], hosting: '京东云对象存储（承载 APK）+ 自有域名',
     http: 200, bytes: 13418,
     title: 'Coinbase官网 - 购买、存储和出售数字货币',
-    note: '★ 团伙关联证据：该站分发的 APK 与 EX-003（coinbasewallet[.]com[.]cn）指向**完全相同的 URL**（京东云 cn-north-1 对象存储桶内的 CoinbaseWallet.apk），可判定为同一投放方的多域名站群。该域名不在公开钓鱼库中，属原创发现。',
+    note: '★ 团伙关联证据：该站分发的 APK 与 EX-003（coinbasewallet[.]com[.]cn）指向**完全相同的 URL**（京东云 cn-north-1 对象存储桶内的 CoinbaseWallet.apk），可判定为同一投放方的多域名站群。该域名不在公开钓鱼库中，属原创发现。载荷现状（2026-10-29 实测）：该 APK 地址返回 403，京东云错误信息为 pin=[caishendao5918] is disabled——承载文件的云账号已被停用，但仿冒站点仍在运营。',
     statutes: ['刑法第266条（诈骗罪）', '反电信网络诈骗法第38条', '网络安全法第27条'],
   },
   {
@@ -62,7 +62,7 @@ const DATA = [
     decoy: ['www.trustwallet.net.cn'], hosting: '自建分发域名 + 关联站群',
     http: 200, bytes: 302398,
     title: 'Binance官网 | Binance钱包App 官方下载 | Binance Web3 去中心化探索',
-    note: '冒充币安官网并提供 APK，下载地址托管于第三方域名 dappstroe[.]net；同时把 trustwallet.net.cn（另一仿冒站，见 EX-013）标为"官方"。页面体积 302KB，SEO 堆词明显，用于抢占搜索结果。对无头 Chrome UA 返回 456，具反自动化特征。',
+    note: '冒充币安官网并提供 APK，下载地址托管于第三方域名 dappstroe[.]net；同时把 trustwallet.net.cn（另一仿冒站，见 EX-013）标为"官方"。页面体积 302KB，SEO 堆词明显，用于抢占搜索结果。对无头 Chrome UA 返回 456，具反自动化特征。⚠️ 载荷现状（2026-10-29 实测）：该 APK 仍可下载，HTTP 200、5,226,064 字节——是本仓库已收录证物中唯一仍在分发中的安装包，应优先举报下架。',
     statutes: ['刑法第266条（诈骗罪）', '反电信网络诈骗法第38条', '反不正当竞争法第6条'],
   },
   {

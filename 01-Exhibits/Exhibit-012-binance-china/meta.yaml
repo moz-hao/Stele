@@ -24,7 +24,7 @@ verified:
   bytes: 302398
   method: curl + 浏览器 UA / Playwright 渲染
 evidence:
-  note: "冒充币安官网并提供 APK，下载地址托管于第三方域名 dappstroe[.]net；同时把 trustwallet.net.cn（另一仿冒站，见 EX-013）标为\"官方\"。页面体积 302KB，SEO 堆词明显，用于抢占搜索结果。对无头 Chrome UA 返回 456，具反自动化特征。"
+  note: "冒充币安官网并提供 APK，下载地址托管于第三方域名 dappstroe[.]net；同时把 trustwallet.net.cn（另一仿冒站，见 EX-013）标为\"官方\"。页面体积 302KB，SEO 堆词明显，用于抢占搜索结果。对无头 Chrome UA 返回 456，具反自动化特征。⚠️ 载荷现状（2026-10-29 实测）：该 APK 仍可下载，HTTP 200、5,226,064 字节——是本仓库已收录证物中唯一仍在分发中的安装包，应优先举报下架。"
 legal:
   classification: 诈骗类
   statutes:

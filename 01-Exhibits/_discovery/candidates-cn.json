@@ -1,0 +1,551 @@
+{
+  "generatedAt": "2026-10-29T09:49:09.065Z",
+  "scope": "CN banks / payment / telecom / ecommerce / railway",
+  "totalCandidates": 848,
+  "resolved": 101,
+  "httpOk": 69,
+  "brandHit": 60,
+  "novel": 60,
+  "results": [
+    {
+      "domain": "icbc.xyz",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://icbc.xyz/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "icbc.site",
+      "ip": "185.158.133.1",
+      "http": 200,
+      "finalUrl": "https://icbc.site/",
+      "bytes": 3451,
+      "title": "ICBC | International Event &amp; Marketing Agency",
+      "known": false
+    },
+    {
+      "domain": "ccb.cn",
+      "ip": "58.19.40.89",
+      "http": 200,
+      "finalUrl": "http://ccb.cn/",
+      "bytes": 439,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "ccb.xyz",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://ccb.xyz/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "ccb.cc",
+      "ip": "103.139.2.17",
+      "http": 200,
+      "finalUrl": "http://ccb.cc/",
+      "bytes": 135273,
+      "title": "泉州闽力商贸有限公司",
+      "known": false
+    },
+    {
+      "domain": "ccb-app.com",
+      "ip": "76.223.105.230",
+      "http": 200,
+      "finalUrl": "https://ccb-app.com/",
+      "bytes": 84886,
+      "title": "ccb-app.com",
+      "known": false
+    },
+    {
+      "domain": "ccb-web.com",
+      "ip": "45.82.189.227",
+      "http": 200,
+      "finalUrl": "https://www.ccb-web.com/",
+      "bytes": 1653,
+      "title": "Domain Default page",
+      "known": false
+    },
+    {
+      "domain": "ccb-china.cn",
+      "ip": "47.120.41.217",
+      "http": 403,
+      "finalUrl": "http://ccb-china.cn/",
+      "bytes": 640,
+      "title": "Non-compliance ICP Filing",
+      "known": false
+    },
+    {
+      "domain": "abchina.cn",
+      "ip": "47.116.209.92",
+      "http": 200,
+      "finalUrl": "https://abchina.cn/",
+      "bytes": 16108302,
+      "title": "Alpha Beta China · α/β 数据分析平台 · CANSLIM / SEPA 趋势模板量化呈现 - 2026年10月29日 16:28",
+      "known": false
+    },
+    {
+      "domain": "abchina.online",
+      "ip": "176.57.66.99",
+      "http": 200,
+      "finalUrl": "https://abchina.online/",
+      "bytes": 1511915,
+      "title": "ABChina — онлайн-школа китайского языка",
+      "known": false
+    },
+    {
+      "domain": "bankofchina.top",
+      "ip": "162.4.84.247",
+      "http": 200,
+      "finalUrl": "http://bankofchina.top/",
+      "bytes": 5556,
+      "title": "Redirecting...",
+      "known": false
+    },
+    {
+      "domain": "cmbchina.cn",
+      "ip": "116.7.243.51",
+      "http": 200,
+      "finalUrl": "https://cmbchina.cn/",
+      "bytes": 164735,
+      "title": "一网通主页 -- 招商银行官方网站",
+      "known": false
+    },
+    {
+      "domain": "cmbchina.cc",
+      "ip": "160.153.0.144",
+      "http": 404,
+      "finalUrl": "https://cmbchina.cc/",
+      "bytes": 0,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "cmbchina.online",
+      "ip": "34.117.176.22",
+      "http": 200,
+      "finalUrl": "https://www.fruits.co/en/domain/cmbchina.online",
+      "bytes": 174406,
+      "title": "cmbchina.online | fruits",
+      "known": false
+    },
+    {
+      "domain": "bankcomm.vip",
+      "ip": "54.215.31.113",
+      "http": 200,
+      "finalUrl": "https://10086cckp6.com/",
+      "bytes": 4384,
+      "title": "点击继续|淘宝闪购 微信 支付宝 微博 百度 爱奇艺 快手 小红书 抖音",
+      "known": false
+    },
+    {
+      "domain": "psbc.org.cn",
+      "ip": "13.248.243.5",
+      "http": 200,
+      "finalUrl": "http://psbc.org.cn/",
+      "bytes": 86287,
+      "title": "psbc.org.cn",
+      "known": false
+    },
+    {
+      "domain": "psbc.top",
+      "ip": "104.21.70.210",
+      "http": 200,
+      "finalUrl": "http://psbc.top/",
+      "bytes": 135,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "psbc.xyz",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://psbc.xyz/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "psbc.vip",
+      "ip": "54.215.31.113",
+      "http": 200,
+      "finalUrl": "https://10086cckp6.com/",
+      "bytes": 4384,
+      "title": "点击继续|淘宝闪购 微信 支付宝 微博 百度 爱奇艺 快手 小红书 抖音",
+      "known": false
+    },
+    {
+      "domain": "psbc.shop",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://psbc.shop/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "psbc-vip.top",
+      "ip": "162.4.84.247",
+      "http": 200,
+      "finalUrl": "http://psbc-vip.top/",
+      "bytes": 5548,
+      "title": "Redirecting...",
+      "known": false
+    },
+    {
+      "domain": "alipay.cn",
+      "ip": "110.76.8.255",
+      "http": 200,
+      "finalUrl": "http://alipay.cn/",
+      "bytes": 330,
+      "title": "支付宝生活平台",
+      "known": false
+    },
+    {
+      "domain": "alipay.com.cn",
+      "ip": "110.76.8.255",
+      "http": 200,
+      "finalUrl": "http://alipay.com.cn/",
+      "bytes": 324,
+      "title": "新支付宝",
+      "known": false
+    },
+    {
+      "domain": "alipay.net.cn",
+      "ip": "110.75.130.45",
+      "http": 200,
+      "finalUrl": "http://alipay.net.cn/",
+      "bytes": 329,
+      "title": "蚂蚁测试域名",
+      "known": false
+    },
+    {
+      "domain": "alipay.org.cn",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://alipay.org.cn/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "known": false
+    },
+    {
+      "domain": "alipay.vip",
+      "ip": "3.33.130.190",
+      "http": 200,
+      "finalUrl": "http://alipay.vip/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "alipay.site",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://alipay.site/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "tenpay.net.cn",
+      "ip": "52.206.185.13",
+      "http": 200,
+      "finalUrl": "http://tenpay.net.cn/",
+      "bytes": 2641,
+      "title": "Domain Blocked",
+      "known": false
+    },
+    {
+      "domain": "unionpay.cn",
+      "ip": "165.154.64.14",
+      "http": 200,
+      "finalUrl": "http://unionpay.cn/",
+      "bytes": 3914,
+      "title": "《私人订制》",
+      "known": false
+    },
+    {
+      "domain": "unionpay.com.cn",
+      "ip": "165.154.64.14",
+      "http": 200,
+      "finalUrl": "http://unionpay.com.cn/",
+      "bytes": 3914,
+      "title": "《私人订制》",
+      "known": false
+    },
+    {
+      "domain": "unionpay.top",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://unionpay.top/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "known": false
+    },
+    {
+      "domain": "unionpay.shop",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://unionpay.shop/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "chinaunicom.net.cn",
+      "ip": "120.24.4.45",
+      "http": 403,
+      "finalUrl": "http://chinaunicom.net.cn/",
+      "bytes": 640,
+      "title": "Non-compliance ICP Filing",
+      "known": false
+    },
+    {
+      "domain": "chinaunicom.site",
+      "ip": "120.79.34.54",
+      "http": 403,
+      "finalUrl": "http://chinaunicom.site/",
+      "bytes": 640,
+      "title": "Non-compliance ICP Filing",
+      "known": false
+    },
+    {
+      "domain": "chinatelecom.site",
+      "ip": "2.57.91.92",
+      "http": 200,
+      "finalUrl": "http://chinatelecom.site/",
+      "bytes": 10881,
+      "title": "Your domain is expired",
+      "known": false
+    },
+    {
+      "domain": "taobao.cn",
+      "ip": "59.82.122.165",
+      "http": 200,
+      "finalUrl": "https://www.taobao.com/",
+      "bytes": 89600,
+      "title": "淘宝",
+      "known": false
+    },
+    {
+      "domain": "taobao.site",
+      "ip": "115.28.82.110",
+      "http": 403,
+      "finalUrl": "http://taobao.site/",
+      "bytes": 640,
+      "title": "Non-compliance ICP Filing",
+      "known": false
+    },
+    {
+      "domain": "taobao-app.cn",
+      "ip": "186.241.251.19",
+      "http": 200,
+      "finalUrl": "http://taobao-app.cn/",
+      "bytes": 17614,
+      "title": "阅知社论文查重与降重服务网",
+      "known": false
+    },
+    {
+      "domain": "jd.cn",
+      "ip": "120.52.30.169",
+      "http": 200,
+      "finalUrl": "https://www.jd.com/",
+      "bytes": 190938,
+      "title": "京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！",
+      "known": false
+    },
+    {
+      "domain": "jd.vip",
+      "ip": "208.98.40.35",
+      "http": 404,
+      "finalUrl": "http://jd.vip/",
+      "bytes": 13,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "jd.shop",
+      "ip": "36.110.181.192",
+      "http": 200,
+      "finalUrl": "https://www.jd.com/",
+      "bytes": 190938,
+      "title": "京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！",
+      "known": false
+    },
+    {
+      "domain": "jd-app.top",
+      "ip": "115.126.61.77",
+      "http": 200,
+      "finalUrl": "http://jd-app.top/",
+      "bytes": 2018,
+      "title": "' + titlestr + '",
+      "known": false
+    },
+    {
+      "domain": "jd-web.com",
+      "ip": "15.197.148.33",
+      "http": 200,
+      "finalUrl": "http://jd-web.com/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "jd-china.cn",
+      "ip": "39.105.222.67",
+      "http": 200,
+      "finalUrl": "http://jd-china.cn/",
+      "bytes": 60057,
+      "title": "北京写字楼出租-北京办公室租赁-北京办公楼租赁信息平台-京东联行官网",
+      "known": false
+    },
+    {
+      "domain": "jd-china.com",
+      "ip": "54.179.117.50",
+      "http": 200,
+      "finalUrl": "http://jd-china.com/",
+      "bytes": 5718,
+      "title": "页面访问验证",
+      "known": false
+    },
+    {
+      "domain": "12306.com.cn",
+      "ip": "43.242.131.18",
+      "http": 200,
+      "finalUrl": "http://12306.com.cn/",
+      "bytes": 138,
+      "title": "404 Not Found",
+      "known": false
+    },
+    {
+      "domain": "12306.net.cn",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://12306.net.cn/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "known": false
+    },
+    {
+      "domain": "12306.org.cn",
+      "ip": "120.55.80.20",
+      "http": 200,
+      "finalUrl": "http://12306.org.cn/",
+      "bytes": 15327,
+      "title": "12306������Ʊ��Ʊ����-12306��Ʊ��",
+      "known": false
+    },
+    {
+      "domain": "12306.top",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://12306.top/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "known": false
+    },
+    {
+      "domain": "gongshangyinhang.cn",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://gongshangyinhang.cn/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "known": false
+    },
+    {
+      "domain": "gongshangyinhang.com",
+      "ip": "160.153.74.129",
+      "http": 200,
+      "finalUrl": "http://gongshangyinhang.com/",
+      "bytes": 677,
+      "title": "&nbsp;",
+      "known": false
+    },
+    {
+      "domain": "jiansheyinhang.com",
+      "ip": "160.153.74.129",
+      "http": 200,
+      "finalUrl": "http://jiansheyinhang.com/",
+      "bytes": 676,
+      "title": "&nbsp;",
+      "known": false
+    },
+    {
+      "domain": "nongyeyinhang.com",
+      "ip": "160.153.74.129",
+      "http": 200,
+      "finalUrl": "http://nongyeyinhang.com/",
+      "bytes": 201,
+      "title": "&nbsp;",
+      "known": false
+    },
+    {
+      "domain": "zhongguoyinhang.com",
+      "ip": "103.224.182.246",
+      "http": 200,
+      "finalUrl": "http://zhongguoyinhang.com/",
+      "bytes": 27437,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "zhaoshangyinhang.cn",
+      "ip": "104.21.11.218",
+      "http": 200,
+      "finalUrl": "https://zhaoshangyinhang.cn/",
+      "bytes": 0,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "zhaoshangyinhang.com",
+      "ip": "160.153.74.129",
+      "http": 200,
+      "finalUrl": "http://zhaoshangyinhang.com/",
+      "bytes": 201,
+      "title": "&nbsp;",
+      "known": false
+    },
+    {
+      "domain": "zhifubao.cn",
+      "ip": "8.218.137.223",
+      "http": 200,
+      "finalUrl": "http://zhifubao.cn/",
+      "bytes": 4087,
+      "title": "域名 - 域名出售",
+      "known": false
+    },
+    {
+      "domain": "zhifubao.cc",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://zhifubao.cc/",
+      "bytes": 114,
+      "title": "",
+      "known": false
+    },
+    {
+      "domain": "weixinzhifu.cn",
+      "ip": "54.179.117.50",
+      "http": 200,
+      "finalUrl": "http://weixinzhifu.cn/",
+      "bytes": 5718,
+      "title": "页面访问验证",
+      "known": false
+    },
+    {
+      "domain": "95516.com",
+      "ip": "61.167.55.44",
+      "http": 200,
+      "finalUrl": "https://cn.unionpay.com/upowhtml/cn/templates/quickPass/quickPass.html",
+      "bytes": 99941,
+      "title": "云闪付APP | 中国银联",
+      "known": false
+    }
+  ]
+}
