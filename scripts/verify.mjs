@@ -38,6 +38,12 @@ const EXHIBITS = [
   'Exhibit-005-token-imtoken',
   'Exhibit-006-tokenpocket',
   'Exhibit-007-neteasepay',
+  'Exhibit-008-tokenpocket-web3',
+  'Exhibit-009-tokenpocket-china',
+  'Exhibit-010-coinbase-web3',
+  'Exhibit-011-binance-download',
+  'Exhibit-012-binance-china',
+  'Exhibit-013-trustwallet-net-cn',
 ];
 const REQUIRED = ['meta.yaml', 'page.html', 'screenshot.png', 'sha256.txt', 'report/12377.md'];
 

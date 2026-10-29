@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-10-29T08:34:51.309Z",
+  "totalCandidates": 499,
+  "resolved": 97,
+  "httpOk": 41,
+  "brandHit": 40,
+  "novel": 40,
+  "results": [
+    {
+      "domain": "tokenpocket.cn",
+      "ip": "43.226.53.115",
+      "http": 200,
+      "finalUrl": "http://tokenpocket.cn/",
+      "bytes": 832,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket.com.cn",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://tokenpocket.com.cn/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket.top",
+      "ip": "149.88.65.197",
+      "http": 403,
+      "finalUrl": "http://tokenpocket.top/",
+      "bytes": 3143,
+      "title": "网站暂时无法访问",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket.site",
+      "ip": "104.207.64.184",
+      "http": 200,
+      "finalUrl": "https://tokenpocket.site/",
+      "bytes": 1748,
+      "title": "New API",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket.online",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://tokenpocket.online/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket.shop",
+      "ip": "52.40.42.113",
+      "http": 200,
+      "finalUrl": "http://tokenpocket.shop/",
+      "bytes": 20599,
+      "title": "tokenpocket.shop for sale | Spaceship.com",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket-download.cn",
+      "ip": "154.206.138.213",
+      "http": 200,
+      "finalUrl": "http://tokenpocket-download.cn/",
+      "bytes": 138,
+      "title": "404 Not Found",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket-web3.cn",
+      "ip": "52.128.237.113",
+      "http": 200,
+      "finalUrl": "https://tokenpocket-web3.cn/",
+      "bytes": 27578,
+      "title": "TPwallet官方网站 - 领先的多链数字货币交易钱包平台",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "tokenpocket-china.com",
+      "ip": "222.167.35.91",
+      "http": 200,
+      "finalUrl": "https://tokenpocket-china.com/",
+      "bytes": 32804,
+      "title": "TokenPocket 官网 - TP钱包(中文版)下载 | 全球领先的去中心化多链钱包",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "coinbase.cn",
+      "ip": "52.20.84.62",
+      "http": 403,
+      "finalUrl": "https://domains.atom.com/lpd/name/coinbase.cn",
+      "bytes": 5797,
+      "title": "Just a moment...",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "coinbase.com.cn",
+      "ip": "52.20.84.62",
+      "http": 403,
+      "finalUrl": "https://domains.atom.com/lpd/name/coinbase.com.cn",
+      "bytes": 5809,
+      "title": "Just a moment...",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "coinbase.top",
+      "ip": "52.20.84.62",
+      "http": 403,
+      "finalUrl": "https://domains.atom.com/lpd/name/coinbase.top",
+      "bytes": 5800,
+      "title": "Just a moment...",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "coinbase-web3.com",
+      "ip": "222.167.35.91",
+      "http": 200,
+      "finalUrl": "https://coinbase-web3.com/",
+      "bytes": 12152,
+      "title": "Coinbase官网 - 购买、存储和出售数字货币",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance.vip",
+      "ip": "162.251.94.206",
+      "http": 200,
+      "finalUrl": "https://binance.vip/",
+      "bytes": 22147,
+      "title": "VIP - Global First Bulk Asset Launch Platform + AI Exchange",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance.site",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://binance.site/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance.online",
+      "ip": "172.67.207.212",
+      "http": 200,
+      "finalUrl": "http://binance.online/",
+      "bytes": 26626,
+      "title": "binance.online - Is for sale",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance.ltd",
+      "ip": "37.1.220.245",
+      "http": 200,
+      "finalUrl": "http://binance.ltd/",
+      "bytes": 6128,
+      "title": "等待。",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-cn.xyz",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://binance-cn.xyz/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-app.com",
+      "ip": "13.248.243.5",
+      "http": 200,
+      "finalUrl": "https://binance-app.com/",
+      "bytes": 75746,
+      "title": "binance-app.com",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-download.com",
+      "ip": "43.155.140.22",
+      "http": 200,
+      "finalUrl": "https://binance-download.com/",
+      "bytes": 19022,
+      "title": "币安Binance | 全球领先的加密货币交易平台 - 官方App下载与注册",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-wallet.com",
+      "ip": "2.57.91.91",
+      "http": 200,
+      "finalUrl": "http://binance-wallet.com/",
+      "bytes": 32079,
+      "title": "Parked Domain name on Hostinger DNS system",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-pro.com",
+      "ip": "76.223.105.230",
+      "http": 200,
+      "finalUrl": "https://binance-pro.com/",
+      "bytes": 81331,
+      "title": "Binance",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-vip.com",
+      "ip": "104.20.39.82",
+      "http": 200,
+      "finalUrl": "http://binance-vip.com/share/loading/",
+      "bytes": 7310,
+      "title": "Loading...",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-hk.cn",
+      "ip": "15.197.148.33",
+      "http": 200,
+      "finalUrl": "http://binance-hk.cn/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-china.com",
+      "ip": "222.167.35.13",
+      "http": 200,
+      "finalUrl": "https://binance-china.com/",
+      "bytes": 299989,
+      "title": "Binance官网 | Binance钱包App 官方下载 | Binance Web3 去中心化探索",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "binance-official.cn",
+      "ip": "191.124.7.27",
+      "http": 200,
+      "finalUrl": "https://binance-official.cn/",
+      "bytes": 10475,
+      "title": "币安 Binance 行情、交易与数字资产平台介绍｜Binance 数字资产功能指南 2026",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "alipay.cn",
+      "ip": "110.75.130.45",
+      "http": 200,
+      "finalUrl": "http://alipay.cn/",
+      "bytes": 330,
+      "title": "支付宝生活平台",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "alipay.com.cn",
+      "ip": "110.75.130.45",
+      "http": 200,
+      "finalUrl": "http://alipay.com.cn/",
+      "bytes": 324,
+      "title": "新支付宝",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "alipay.vip",
+      "ip": "15.197.148.33",
+      "http": 200,
+      "finalUrl": "http://alipay.vip/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "alipay.site",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://alipay.site/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay.cn",
+      "ip": "165.154.64.14",
+      "http": 200,
+      "finalUrl": "http://unionpay.cn/",
+      "bytes": 3914,
+      "title": "《私人订制》",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay.com.cn",
+      "ip": "165.154.64.14",
+      "http": 200,
+      "finalUrl": "http://unionpay.com.cn/",
+      "bytes": 3914,
+      "title": "《私人订制》",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay.top",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://unionpay.top/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay.shop",
+      "ip": "13.248.169.48",
+      "http": 200,
+      "finalUrl": "http://unionpay.shop/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay-wallet.cn",
+      "ip": "170.33.12.185",
+      "http": 200,
+      "finalUrl": "http://unionpay-wallet.cn/",
+      "bytes": 411,
+      "title": "域名售卖",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "unionpay-wallet.com",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://unionpay-wallet.com/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "icbc.xyz",
+      "ip": "76.223.54.146",
+      "http": 200,
+      "finalUrl": "http://icbc.xyz/",
+      "bytes": 114,
+      "title": "",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "icbc.site",
+      "ip": "185.158.133.1",
+      "http": 200,
+      "finalUrl": "https://icbc.site/",
+      "bytes": 3451,
+      "title": "ICBC | International Event &amp; Marketing Agency",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "abchina.cn",
+      "ip": "47.116.209.92",
+      "http": 200,
+      "finalUrl": "https://abchina.cn/",
+      "bytes": 16108302,
+      "title": "Alpha Beta China · α/β 数据分析平台 · CANSLIM / SEPA 趋势模板量化呈现 - 2026年10月29日 16:28",
+      "inOpenPhishOrPhishDB": false
+    },
+    {
+      "domain": "abchina.online",
+      "ip": "176.57.66.99",
+      "http": 200,
+      "finalUrl": "https://abchina.online/",
+      "bytes": 1511915,
+      "title": "ABChina — онлайн-школа китайского языка",
+      "inOpenPhishOrPhishDB": false
+    }
+  ]
+}

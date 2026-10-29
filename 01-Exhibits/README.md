@@ -18,8 +18,67 @@
 | EX-005 | imToken | `token[.]hk[.]cn` | 200 | imToken 官网 | — |
 | EX-006 | TokenPocket | `tokenpocket[.]hk[.]cn` | 200 | TokenPocket 你的通用数字钱包 | — |
 | EX-007 | 网易支付 | `neteasepay[.]cn` | 200 | 网易支付 | — |
+| **EX-008** | TokenPocket | `tokenpocket-web3[.]cn` | 200 | TPwallet官方网站 | — |
+| **EX-009** | TokenPocket | `tokenpocket-china[.]com` | 200 | TokenPocket 官网(中文版) | — |
+| **EX-010** | Coinbase | `coinbase-web3[.]com` | 200 | Coinbase官网 | ✅ **与 EX-003 同一文件** |
+| **EX-011** | 币安 Binance | `binance-download[.]com` | 200 | 币安官方App下载 | — |
+| **EX-012** | 币安 Binance | `binance-china[.]com` | 200 | Binance官网 | ✅ `dappstroe[.]net` |
+| **EX-013** | Trust Wallet | `trustwallet[.]net[.]cn` | 200 | Trust Wallet(信任钱包App) | — |
 
 机器可读版本：[`INDEX.csv`](INDEX.csv)
+
+---
+
+## 两批证据的区别（重要）
+
+| | EX-001 ~ 007 | **EX-008 ~ 013** |
+|---|---|---|
+| 来源 | OpenPhish / Phishing.Database 公开情报库 | **原创主动发现** |
+| 警方能否自行查到 | 能，查库即可 | **查库查不到** |
+| 发现方法 | 读公开 feed | 域名变体枚举 + DNS 解析 + HTTP 实测 + 标题核验 |
+| 复用价值 | 低（库里有） | **高（库里没有）** |
+
+### 原创批次的发现方法
+
+见 [`scripts/discover.mjs`](../scripts/discover.mjs)：
+
+1. 以品牌词（trustwallet / imtoken / metamask / tokenpocket / coinbase / binance / alipay / unionpay / icbc / abchina）生成域名变体
+2. 逐个 DNS 解析，仅对解析成功的发起 HTTP 请求
+3. 抓取 `<title>`，保留**标题中出现品牌名**的（即页面自称是该品牌）
+4. 与 OpenPhish 公开 feed、Phishing.Database 活跃列表（**392,164 条**）逐条比对
+5. 输出**两边都没有**的条目
+
+**这 6 个域名在比对时均不在上述任意一个库中。** 每条 `meta.yaml` 的 `discovery.originality` 字段记录了比对结论与时间。
+
+### 误报是怎么排除的
+
+枚举会碰到大量无关结果，本批次已剔除：
+
+| 域名 | 实际是什么 | 处理 |
+|---|---|---|
+| `icbc[.]site` | International Event & Marketing Agency（会展公司） | 剔除 |
+| `abchina[.]online` | ABChina 俄语中文学校 | 剔除 |
+| `binance[.]online` | 域名待售页 | 剔除 |
+| `trustwallet[.]shop` | 域名停放 | 剔除 |
+| `alipay[.]cn` | 331 字节占位页，权属不明 | 剔除，不臆断 |
+
+**收录门槛**：页面标题必须明确自称是某品牌官方，且域名与该品牌官方域名无关联。
+
+---
+
+## 一条跨条目的团伙线索
+
+`EX-003`（`coinbasewallet[.]com[.]cn`）与 `EX-010`（`coinbase-web3[.]com`）分发的安装包**指向完全相同的 URL**：
+
+```text
+app-store.s3.cn-north-1.jdcloud-oss.com/CoinbaseWallet.apk
+```
+
+两个域名互不相同、注册时间可能不同，但下载同一个文件——**同一投放方、多域名站群**。
+
+类似地，`EX-012`（`binance-china[.]com`）把 `EX-013`（`trustwallet[.]net[.]cn`）标注为"官方"，构成互引站群。
+
+**这类关联是公开库给不了的**：库只记录单个域名，不告诉你它们同源。并案举报时这是最有分量的材料。
 
 ---
 

@@ -1,0 +1,35 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-008
+dir: Exhibit-008-tokenpocket-web3
+type: phishing-crypto-wallet
+status: active
+impersonates: "TokenPocket"
+official_domain: tokenpocket.pro
+domains:
+  - "tokenpocket-web3[.]cn"
+payload: []
+decoy_links: []
+hosting: "self-hosted (.cn)"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "TPwallet官方网站 - 领先的多链数字货币交易钱包平台"
+  bytes: 27579
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "域名 tokenpocket-web3[.]cn 非 TokenPocket 官方（官方为 tokenpocket.pro），页面自称\"TPwallet官方网站\"，属仿冒钱包官网引流。由证书/域名变体主动探测发现，不在公开钓鱼库中。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

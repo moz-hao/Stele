@@ -1,0 +1,37 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-010
+dir: Exhibit-010-coinbase-web3
+type: phishing-crypto-wallet
+status: active
+impersonates: "Coinbase"
+official_domain: coinbase.com
+domains:
+  - "coinbase-web3[.]com"
+payload:
+  - "https://app-store.s3.cn-north-1.jdcloud-oss.com/CoinbaseWallet.apk"
+decoy_links: []
+hosting: "京东云对象存储（承载 APK）+ 自有域名"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "Coinbase官网 - 购买、存储和出售数字货币"
+  bytes: 13418
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "★ 团伙关联证据：该站分发的 APK 与 EX-003（coinbasewallet[.]com[.]cn）指向**完全相同的 URL**（京东云 cn-north-1 对象存储桶内的 CoinbaseWallet.apk），可判定为同一投放方的多域名站群。该域名不在公开钓鱼库中，属原创发现。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反电信网络诈骗法第38条"
+    - "网络安全法第27条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

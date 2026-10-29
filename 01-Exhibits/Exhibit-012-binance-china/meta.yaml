@@ -1,0 +1,38 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-012
+dir: Exhibit-012-binance-china
+type: phishing-crypto-exchange
+status: active
+impersonates: "Binance（币安）/ Trust Wallet"
+official_domain: binance.com
+domains:
+  - "binance-china[.]com"
+payload:
+  - "https://down.dappstroe.net/trustwallet.apk"
+decoy_links:
+  - "www.trustwallet.net.cn"
+hosting: "自建分发域名 + 关联站群"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "Binance官网 | Binance钱包App 官方下载 | Binance Web3 去中心化探索"
+  bytes: 302398
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "冒充币安官网并提供 APK，下载地址托管于第三方域名 dappstroe[.]net；同时把 trustwallet.net.cn（另一仿冒站，见 EX-013）标为\"官方\"。页面体积 302KB，SEO 堆词明显，用于抢占搜索结果。对无头 Chrome UA 返回 456，具反自动化特征。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反电信网络诈骗法第38条"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

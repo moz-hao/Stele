@@ -1,0 +1,82 @@
+[
+  {
+    "dir": "Exhibit-008-tokenpocket-web3",
+    "url": "https://tokenpocket-web3.cn/",
+    "captured_at": "2026-10-29T08:37:48.544Z",
+    "human_time": "2026/10/29 16:37:48",
+    "http": 200,
+    "title": "TPwallet官方网站 - 领先的多链数字货币交易钱包平台",
+    "password_inputs": 0,
+    "inputs": 1,
+    "forms": 0,
+    "page_html": "from-browser",
+    "screenshot": "ok",
+    "blocked": 0,
+    "bytes": 1330612
+  },
+  {
+    "dir": "Exhibit-009-tokenpocket-china",
+    "url": "https://tokenpocket-china.com/",
+    "captured_at": "2026-10-29T08:37:56.042Z",
+    "human_time": "2026/10/29 16:37:56",
+    "http": 456,
+    "title": "",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "screenshot": "ok",
+    "blocked": 0,
+    "bytes": 20602
+  },
+  {
+    "dir": "Exhibit-010-coinbase-web3",
+    "url": "https://coinbase-web3.com/",
+    "captured_at": "2026-10-29T08:38:04.030Z",
+    "human_time": "2026/10/29 16:38:04",
+    "http": 456,
+    "title": "",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "screenshot": "ok",
+    "blocked": 0,
+    "bytes": 20603
+  },
+  {
+    "dir": "Exhibit-011-binance-download",
+    "url": "https://binance-download.com/",
+    "captured_at": "2026-10-29T08:38:11.721Z",
+    "human_time": "2026/10/29 16:38:11",
+    "http": 200,
+    "title": "币安Binance | 全球领先的加密货币交易平台 - 官方App下载与注册",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "page_html": "from-browser",
+    "screenshot": "ok",
+    "blocked": 0,
+    "bytes": 373676
+  },
+  {
+    "dir": "Exhibit-012-binance-china",
+    "url": "https://binance-china.com/",
+    "captured_at": "2026-10-29T08:38:17.563Z",
+    "human_time": "2026/10/29 16:38:17",
+    "http": 456,
+    "title": "",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "screenshot": "ok",
+    "blocked": 0,
+    "bytes": 20547
+  },
+  {
+    "dir": "Exhibit-013-trustwallet-net-cn",
+    "url": "https://trustwallet.net.cn/",
+    "captured_at": "2026-10-29T08:38:23.553Z",
+    "human_time": "2026/10/29 16:38:23",
+    "error": "page.goto: net::ERR_CONNECTION_REFUSED at https://trustwallet.net.cn/",
+    "screenshot": "failed"
+  }
+]

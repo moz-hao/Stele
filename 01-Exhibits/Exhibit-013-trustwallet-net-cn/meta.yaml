@@ -1,0 +1,35 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-013
+dir: Exhibit-013-trustwallet-net-cn
+type: phishing-crypto-wallet
+status: active
+impersonates: "Trust Wallet"
+official_domain: trustwallet.com
+domains:
+  - "trustwallet[.]net[.]cn"
+payload: []
+decoy_links: []
+hosting: "self-hosted (.net.cn)"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "Trust Wallet(信任钱包App) - 安全存储、发送接收BTC及BNB代币 | 币安Web3钱包"
+  bytes: 32339
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "域名 trustwallet[.]net[.]cn 与官方 trustwallet.com 分属不同注册体系，页面自称\"信任钱包App\"官方下载并借\"币安Web3钱包\"背书。被 EX-012 列为\"官方\"域名，二者构成互引站群。不在公开钓鱼库中。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

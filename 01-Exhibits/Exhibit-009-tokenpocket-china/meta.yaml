@@ -1,0 +1,37 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-009
+dir: Exhibit-009-tokenpocket-china
+type: phishing-crypto-wallet
+status: active
+impersonates: "TokenPocket"
+official_domain: tokenpocket.pro
+domains:
+  - "tokenpocket-china[.]com"
+payload: []
+decoy_links:
+  - "www.tokenpocket-china.com"
+  - "tokenpocket-gm.medium.com"
+hosting: "self-hosted (.com)"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "TokenPocket 官网 - TP钱包(中文版)下载 | 全球领先的去中心化多链钱包"
+  bytes: 34773
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "标题直接自称\"TokenPocket 官网(中文版)下载\"，但域名为 tokenpocket-china[.]com，与官方 tokenpocket.pro 无关。站内将自身域名标为\"官方\"，并使用 Medium 账号 tokenpocket-gm 做信任背书。该站对无头 Chrome UA 返回 456，需用 Safari UA 才能获取内容，具反自动化特征。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

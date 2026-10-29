@@ -1,0 +1,36 @@
+# 自动生成于 scripts/gen-meta2.mjs（原创发现批次）
+id: EX-011
+dir: Exhibit-011-binance-download
+type: phishing-crypto-exchange
+status: active
+impersonates: "Binance（币安）"
+official_domain: binance.com
+domains:
+  - "binance-download[.]com"
+payload: []
+decoy_links:
+  - "binance-download.com"
+hosting: "self-hosted (.com)"
+discovery:
+  method: 域名变体主动探测（scripts/discover.mjs）
+  originality: 经比对，不在 OpenPhish 公开源与 Phishing.Database 活跃列表中
+  compared_at: "2026-10-29T17:00:00+08:00"
+  references_count: 2
+verified:
+  at: "2026-10-29T17:00:00+08:00"
+  http_status: 200
+  page_title: "币安Binance | 全球领先的加密货币交易平台 - 官方App下载与注册"
+  bytes: 19023
+  method: curl + 浏览器 UA / Playwright 渲染
+evidence:
+  note: "域名 binance-download[.]com 与币安官方 binance.com 无关，页面自称\"官方App下载与注册\"，并将自身域名标注为官方，属典型的下载站型仿冒。不在公开钓鱼库中。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"
