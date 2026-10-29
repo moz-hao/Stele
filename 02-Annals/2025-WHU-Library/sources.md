@@ -5,7 +5,7 @@
 
 | 日期 | 来源 | 标题 | 原文 | Wayback 存档 |
 | --- | --- | --- | --- | --- |
-| 2023-10-12 | 中国青年报 | 武汉大学：关注到学生举报遭受性骚扰，成立工作组调查 | `http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html` | `pending` |
+| 2023-10-12 | 中国青年报 | 武汉大学：关注到学生举报遭受性骚扰，成立工作组调查 | `http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html` | [存档 20261029](https://web.archive.org/web/20261029080506/http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html) |
 | 2023-10-12 | 央广网 | 网传武大男生在图书馆实施性骚扰 校方成立工作组调查 | `http://www.cnr.cn/hubei/yw/20231012/t20231012_526447894.shtml` | `pending` |
 | 2023-10-13 | 央广网 | 武汉大学通报"学生举报在图书馆遭性骚扰"事件：给予肖某某记过处分 | `https://www.cnr.cn/hubei/yw/20231013/t20231013_526450383.shtml` | [存档 20251010](http://web.archive.org/web/20251010175601/https://www.cnr.cn/hubei/yw/20231013/t20231013_526450383.shtml) |
 | 2025-07-26 | 新浪财经 | 驳回性骚扰指控！"武大图书馆性骚扰事件"一审宣判 | `https://finance.sina.cn/2025-07-26/detail-infhuqsw2203019.d.html` | `pending` |

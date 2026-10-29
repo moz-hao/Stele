@@ -1,0 +1,76 @@
+# events.yaml — 大卫哥参与并宣传的事件
+# 采集时间: 2026-10-29
+# 原则: 每个事件标注角色与证据等级；无第三方核实的写 pending-source
+
+meta:
+  subject: 王大卫
+  aliases:
+    - 世界记忆冠军大卫哥（B站主账号 mid 23205828）
+    - 大卫哥小小小尛号（B站小号 mid 3546632226343657）
+    - 大卫哥小小小小小号（UID 3494370246395950，待核）
+  collected_at: "2026-10-29T15:40:00+08:00"
+  note: 本档案记录"他参与并宣传的事件"，不记录"他的视频被下架"这件事本身。
+
+events:
+  - id: E1
+    date: "2022-10-19"
+    title: 世界记忆锦标赛组委会除名并终身禁赛
+    role: 被处理方
+    tier: facts
+    authority: 第31届世界记忆锦标赛®中国区组委会
+    finding: 认定其以"2021世界记忆冠军""央视极限记忆挑战王"等虚假身份发布不实言论
+    penalty: 从世界记忆大师队伍中除名、官网成绩清空、终身禁赛
+    source: 组委会公告（搜狐转载）
+    url: "https://m.sohu.com/a/593926407_121124662/"
+    status: 一手公告已获取
+
+  - id: E2
+    date: "2024-02-18"
+    title: 打假记忆培训行业
+    role: 发起方（自述）
+    tier: self-claim
+    evidence:
+      - BV1NF4m1E7He《【暴躁打假大卫哥】！暴躁打假世界记忆冠军，以一己之力揭露整个行业黑幕。投币过万继续打！》
+    metrics: 播放 266,428 / 点赞 6,141（2026-10-29 采集）
+    pending:
+      status: pending-source
+      material: 第三方对该"打假"内容的核实报道
+      channels_checked: [中国青年报, 央广网, 澎湃, 搜狐]
+
+  - id: E3
+    date: "2025-09"
+    title: 杨景媛事件（武汉大学图书馆事件）
+    role: 内容生产者 / 批评者
+    tier: reports
+    detail: ../2025-WHU-Library/
+    note: 本档案不重复其内容，四层材料见独立目录
+    related_bv: [BV1RQCwBqEGJ, BV1VeYAzYEJz]
+
+  - id: E4
+    date: "2026-08-14"
+    title: 高智商俱乐部之争
+    role: 当事人
+    tier: self-claim
+    evidence:
+      - BV1EJgw6eEqs《【很多人，鄙视，高智商俱乐部】我的态度》
+    metrics: 播放 320,459 / 点赞 17,803（2026-10-29 采集）
+    pending:
+      status: pending-source
+      material: 争议对方的公开回应与第三方报道
+      channels_checked: [B站搜索, 微博]
+
+  - id: E5
+    date: "2026-10-15"
+    title: 主账号被封
+    role: 当事人
+    tier: observed
+    evidence:
+      - BV1K1J26oEcv《【大卫哥封号，原因，不明！】》由小号"大卫哥小小小尛号"发布
+    metrics: 播放 199,279 / 点赞 30,025（2026-10-29 采集）
+    pending:
+      status: pending-source
+      material: 平台封禁原因的官方说明
+      channels_checked: [B站公告, 微博]
+      note: 标题自称"原因不明"，封禁理由至今无官方公开说明。
+
+timeline_order: [E1, E2, E3, E4, E5]

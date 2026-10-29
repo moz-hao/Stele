@@ -22,13 +22,14 @@ const WHU = [
 ];
 
 const DG = [
-  ['2025-09-09', 'B站 BV1VeYAzYEJz', '锐评世界记忆冠军大卫哥，星星之火可以燎原（UP：小蓝瓶情感）', 'https://www.bilibili.com/video/BV1VeYAzYEJz'],
+  ['2022-10-19', '世界记忆锦标赛中国区组委会（搜狐转载）', '公告：坚决抵制诋毁、败坏大赛声誉的个人或组织（认定虚假身份、除名、终身禁赛）', 'https://m.sohu.com/a/593926407_121124662/'],
+  ['2024-02-18', 'B站 BV1NF4m1E7He', '【暴躁打假大卫哥】揭露行业黑幕（UP：世界记忆冠军大卫哥）', 'https://www.bilibili.com/video/BV1NF4m1E7He'],
+  ['2025-09-09', 'B站 BV1VeYAzYEJz', '锐评世界记忆冠军大卫哥（UP：小蓝瓶情感）', 'https://www.bilibili.com/video/BV1VeYAzYEJz'],
   ['2025-09-21', '微博「判难」', '评论：UP主举报杨同学视频下架后补发', 'https://www.sina.cn/news/detail/5345529405374608.html'],
-  ['2025-09-24', '微博「a无小邪」', '销冠李老板全网封禁后续', 'https://www.sina.cn/news/detail/5346591208899291.html'],
-  ['2025-11-13', 'B站 BV1RQCwBqEGJ', '【补档】大卫哥评价王思聪怼小米（UP：补档大卫哥下架视频）', 'https://www.bilibili.com/video/BV1RQCwBqEGJ'],
-  ['2026-08-27', 'B站 BV1FPhc6EE7e', '大卫哥最尴尬的事【痛失女同学市场】（UP：世界记忆冠军大卫哥）', 'https://www.bilibili.com/video/BV1FPhc6EE7e'],
-  ['2026-10-19', 'B站 BV1rmJ96BEpu', '接粉丝投稿中英文双语翻译 UC3M收到的杨景媛举报邮件4（UP：CNOCTAVE）', 'https://www.bilibili.com/video/BV1rmJ96BEpu'],
-  ['2026-10-29', 'B站接口实测', 'BV11xnh6EE5J 返回 62002 稿件不可见（已删除）', 'https://api.bilibili.com/x/web-interface/view?bvid=BV11xnh6EE5J'],
+  ['2025-09-21', '新浪新闻', '举报视频下架后补发，这操作是在维权还是网暴？', 'https://sina.cn/news/detail/5345577632273264.html'],
+  ['2025-11-13', 'B站 BV1RQCwBqEGJ', '【补档】大卫哥评价王思聪怼小米', 'https://www.bilibili.com/video/BV1RQCwBqEGJ'],
+  ['2026-08-14', 'B站 BV1EJgw6eEqs', '【很多人，鄙视，高智商俱乐部】我的态度', 'https://www.bilibili.com/video/BV1EJgw6eEqs'],
+  ['2026-10-15', 'B站 BV1K1J26oEcv', '【大卫哥封号，原因，不明！】（小号发布）', 'https://www.bilibili.com/video/BV1K1J26oEcv'],
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -80,4 +81,4 @@ async function build(dir, title, rows) {
 }
 
 await build('02-Annals/2025-WHU-Library', '武汉大学图书馆事件', WHU);
-await build('02-Annals/2025-DavidGe', '"世界记忆冠军大卫哥"视频下架与补档', DG);
+await build('02-Annals/DavidGe-Events', '大卫哥参与并宣传的事件', DG);

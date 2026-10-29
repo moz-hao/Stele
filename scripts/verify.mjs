@@ -95,13 +95,31 @@ if (fs.existsSync(timelinePath)) {
   check(/source:/.test(t), '时间线节点带来源');
 }
 
-/* ---------- 验收 6：大卫哥档案仅元数据 ---------- */
-check(exists('02-Annals/2025-DavidGe'), '存在 2025-DavidGe/');
-if (exists('02-Annals/2025-DavidGe')) {
-  const dgDir = path.join(ROOT, '02-Annals', '2025-DavidGe');
-  const vids = fs.readdirSync(dgDir).filter((f) => /\.(mp4|flv|mkv|webm|m4a|mp3)$/i.test(f));
-  check(vids.length === 0, `大卫哥档案无音视频本体（发现 ${vids.length} 个）`);
-  check(exists(path.join('02-Annals', '2025-DavidGe', 'video-archive.md')), '存在 video-archive.md');
+/* ---------- 验收 6：大卫哥档案 = 参与并宣传的事件 ---------- */
+check(exists('02-Annals/DavidGe-Events'), '存在 02-Annals/DavidGe-Events/');
+if (exists('02-Annals/DavidGe-Events')) {
+  const dgDir = path.join(ROOT, '02-Annals', 'DavidGe-Events');
+  const media = fs.readdirSync(dgDir).filter((f) => /\.(mp4|flv|mkv|webm|m4a|mp3)$/i.test(f));
+  check(media.length === 0, `大卫哥档案无音视频本体（发现 ${media.length} 个）`);
+  check(exists('02-Annals/DavidGe-Events/events.yaml'), '存在 events.yaml');
+
+  const ev = fs.readFileSync(path.join(dgDir, 'events.yaml'), 'utf8');
+  const evCount = (ev.match(/^\s{2}- id: E\d+/gm) || []).length;
+  check(evCount >= 5, `事件条数 ≥ 5（当前 ${evCount}）`);
+  // 用户明确要求：杨景媛事件是其中一件
+  check(/杨景媛事件/.test(ev), '事件表包含「杨景媛事件」');
+  check(/2025-WHU-Library/.test(ev), '杨景媛事件指向独立档案目录');
+  // 必须有官方文书级事件
+  check(/tier:\s*facts/.test(ev), '至少一个事件为 official/官方文书级');
+  check(/终身禁赛|除名/.test(ev), '官方文书事件含组委会处理结果');
+
+  const files = ['01-expelled-2022.md', '02-anti-fraud-2024.md', '03-yangjingyuan-2025.md', '04-iq-club-2026.md', '05-ban-2026.md'];
+  for (const f of files) check(exists(path.join('02-Annals', 'DavidGe-Events', f)), `事件文件存在 ${f}`);
+  // 每个事件文件都要有证据等级标注
+  for (const f of files) {
+    const p = path.join(dgDir, f);
+    if (fs.existsSync(p)) check(/证据等级/.test(fs.readFileSync(p, 'utf8')), `${f} 标注证据等级`);
+  }
 }
 
 /* ---------- 验收 7：混淆自检（仅 md/yaml，page.html 为隔离证据豁免） ---------- */
