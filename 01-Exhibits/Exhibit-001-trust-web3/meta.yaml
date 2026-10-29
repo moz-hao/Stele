@@ -1,0 +1,38 @@
+# 自动生成于 scripts/gen-meta.mjs，手工修改请同步更新生成器
+id: EX-001
+dir: Exhibit-001-trust-web3
+type: phishing-crypto-wallet
+status: active
+impersonates: "Trust Wallet"
+official_domain: trustwallet.com
+domains:
+  - "trust-web3[.]cn"
+payload:
+  - "https://down.cryptowalletapp.cn/trustwallet.apk"
+decoy_links:
+  - "trustwallet.com"
+hosting: "self-hosted (.cn)"
+verified:
+  at: "2026-10-29T15:00:00+08:00"
+  http_status: 200
+  page_title: "Trust Wallet官方下载安装 | 多币种数字货币钱包 | 安全去中心化钱包"
+  bytes: 25917
+  method: curl + browser UA
+source:
+  name: OpenPhish public feed
+  cross_check: Phishing.Database (MIT)
+  verified_at: "2026-10-29T15:00:00+08:00"
+evidence:
+  note: "页面自称\"Trust Wallet官方下载安装\"，同时链向官网真地址作案伪装，实际下载指向非官方域名 cryptowalletapp.cn 的 APK。注意：HTML <title> 为中文，而浏览器渲染出的可见内容为英文（完整复刻官网视觉），同一站点在不同请求下返回不同语言版本，该差异本身即取证信息。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反电信网络诈骗法第38条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  abuse_targets:
+    - "云服务商/域名注册商：对应托管方"
+  local: "report/12377.md"

@@ -1,0 +1,8 @@
+id,dir,impersonates,domain_obfuscated,page_title,status,http,has_apk
+EX-001,Exhibit-001-trust-web3,Trust Wallet,trust-web3[.]cn,"Trust Wallet官方下载安装 | 多币种数字货币钱包 | 安全去中心化钱包",active,200,yes
+EX-002,Exhibit-002-metamaskwallet,MetaMask,metamaskwallet[.]com[.]cn,"MetaMask官网 - 全球领先的以太坊&Web3钱包",active,200,yes
+EX-003,Exhibit-003-coinbasewallet,Coinbase,coinbasewallet[.]com[.]cn,"Coinbase - 安全加密钱包,购买和出售比特币、以太坊及其他可靠币种",active,200,yes
+EX-004,Exhibit-004-trustwallllet,Trust Wallet（typo-squatting）,trustwallllet[.]cn,"tp官方正版下载|TP官方下载安卓最新版本2025·(TPWallet)-TP官网版APP正版|你的通用数字钱包",active,200,no
+EX-005,Exhibit-005-token-imtoken,imToken,token[.]hk[.]cn,"imToken 官网｜以太坊和比特币钱包",active,200,no
+EX-006,Exhibit-006-tokenpocket,TokenPocket,tokenpocket[.]hk[.]cn,"TokenPocket - 你的通用数字钱包 | TP钱包-ETH钱包-BTC钱包-BSC钱包-HECO钱包-OKExChain钱包-Polkadot钱包-Kusama 钱包-DeFi钱包-Layer 2钱包-EOS钱包-TRX钱包",active,200,no
+EX-007,Exhibit-007-neteasepay,网易支付,neteasepay[.]cn,"网易支付",active,200,no

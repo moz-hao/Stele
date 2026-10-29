@@ -1,0 +1,77 @@
+# timeline.yaml — "世界记忆冠军大卫哥"视频下架与补档
+# 采集时间: 2026-10-29
+# 原则: 每个节点带 source；无法核实的写 pending-source
+
+meta:
+  subject: 世界记忆冠军大卫哥（B 站 UP 主）
+  related_event: 武汉大学图书馆事件
+  collected_at: "2026-10-29T14:40:00+08:00"
+  completeness: 仅元数据；完整视频列表待补
+
+nodes:
+  - date: "2025-09"
+    event: 武大图书馆事件二审判决前后，该 UP 主发布系列相关内容，标题涉及"全球通缉"等表述。
+    source: 微博认证博主「判难」2025-09-21 公开评论（观点层）
+    url: "https://www.sina.cn/news/detail/5345529405374608.html"
+    tier: claims
+    note: 原始视频标题未能完整获取，"全球通缉"表述来自第三方转述。
+
+  - date: "2025-09-09"
+    event: 第三方 UP 主「小蓝瓶情感」发布《锐评世界记忆冠军大卫哥，星星之火可以燎原》。
+    source: B 站 BV1VeYAzYEJz
+    url: "https://www.bilibili.com/video/BV1VeYAzYEJz"
+    tier: reports
+    meta: 播放量 64,815（2026-10-29 采集）
+
+  - date: "2025-09-21"
+    event: 微博认证博主「判难」发文批评其"通过煽动性标题和公开个人隐私获取流量""原视频下架后以补档形式复活"。
+    source: 微博「判难」
+    url: "https://www.sina.cn/news/detail/5345529405374608.html"
+    tier: claims
+
+  - date: "2025-09-24"
+    event: 关联事件——「销冠李老板」多账号遭全网封禁，同期舆论讨论平台封禁尺度。
+    source: 微博「a无小邪」
+    url: "https://www.sina.cn/news/detail/5346591208899291.html"
+    tier: claims
+    note: 两事件是否属同一治理行动，未见官方说明。
+
+  - date: "2025-11-13"
+    event: 第三方账号「补档大卫哥下架视频」（UID 357749994）发布《【补档】大卫哥评价王思聪怼小米》。
+    source: B 站 BV1RQCwBqEGJ
+    url: "https://www.bilibili.com/video/BV1RQCwBqEGJ"
+    tier: facts
+    meta: 播放量 851（2026-10-29 采集）；标题自带"【补档】"标记
+
+  - date: "2026-08-27"
+    event: 主体账号发布《大卫哥最尴尬的事【痛失女同学市场】》。
+    source: B 站 BV1FPhc6EE7e
+    url: "https://www.bilibili.com/video/BV1FPhc6EE7e"
+    tier: facts
+    meta: 播放量 27,685（2026-10-29 采集）
+
+  - date: "2026-10-19"
+    event: UP 主「CNOCTAVE」发布《接粉丝投稿中英文双语翻译 UC3M收到的杨景媛举报邮件4》。
+    source: B 站 BV1rmJ96BEpu
+    url: "https://www.bilibili.com/video/BV1rmJ96BEpu"
+    tier: reports
+    meta: 播放量 127（2026-10-29 采集）
+
+  - date: "2026-10-29"
+    event: 观测到 BV11xnh6EE5J（标题：杨景媛被引入教材！成为典型案例）返回 62002 稿件不可见，确认已被删除。
+    source: B 站 view 接口实测
+    url: "https://api.bilibili.com/x/web-interface/view?bvid=BV11xnh6EE5J"
+    tier: facts
+    meta: 首次观测时间 2026-10-29 14:40
+
+pending:
+  - item: 原始视频的完整标题列表
+    status: pending-source
+    channels_checked: [space 接口 wbi 限制, HTML 内嵌 JSON, 搜索引擎索引]
+  - item: 各视频的具体下架时间
+    status: pending-source
+    channels_checked: [B 站不公开下架时间戳]
+  - item: "公开当事人隐私"这一指控的原始证据
+    status: pending-source
+    channels_checked: [第三方评论转述]
+    note: 需原始视频内容佐证；本档案不搬运视频，故无法自证，如实标注。

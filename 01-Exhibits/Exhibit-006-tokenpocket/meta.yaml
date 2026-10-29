@@ -1,0 +1,36 @@
+# 自动生成于 scripts/gen-meta.mjs，手工修改请同步更新生成器
+id: EX-006
+dir: Exhibit-006-tokenpocket
+type: phishing-crypto-wallet
+status: active
+impersonates: "TokenPocket"
+official_domain: tokenpocket.pro
+domains:
+  - "tokenpocket[.]hk[.]cn"
+payload: []
+decoy_links:
+  - "www.tokenpocket.pro"
+  - "tokenpocket.sbs"
+hosting: "self-hosted (.hk.cn)"
+verified:
+  at: "2026-10-29T15:00:00+08:00"
+  http_status: 200
+  page_title: "TokenPocket - 你的通用数字钱包 | TP钱包-ETH钱包-BTC钱包-BSC钱包-HECO钱包-OKExChain钱包-Polkadot钱包-Kusama 钱包-DeFi钱包-Layer 2钱包-EOS钱包-TRX钱包"
+  bytes: 14708
+  method: curl + browser UA
+source:
+  name: OpenPhish public feed
+  cross_check: Phishing.Database (MIT)
+  verified_at: "2026-10-29T15:00:00+08:00"
+evidence:
+  note: "页面标题自称 TokenPocket 官方，同时混链真官网 tokenpocket.pro 与仿冒站 tokenpocket.sbs，用于混淆真伪。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

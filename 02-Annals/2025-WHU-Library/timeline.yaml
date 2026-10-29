@@ -1,0 +1,77 @@
+# timeline.yaml — 武汉大学图书馆事件
+# 每个节点必须带 source；未知节点写 status: pending-source，不猜测。
+# 采集时间: 2026-10-29
+
+meta:
+  event: 武汉大学图书馆事件
+  parties:
+    - 肖某瑫（2022 级本科生，被指性骚扰方）
+    - 杨某媛（指控方，硕士研究生）
+  collected_at: "2026-10-29T14:30:00+08:00"
+  completeness: 四层齐备；判决书全文待补
+
+nodes:
+  - date: "2023-07"
+    event: 事件发生。杨某媛称在武汉大学图书馆自习时遭对面男生不雅动作骚扰，拍摄 5 段视频；男生当场承认并写下道歉说明。
+    source: 中国青年报 2023-10-12
+    url: "http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html"
+    tier: reports
+    note: 该表述为杨某媛单方陈述，武大后续通报未逐条确认细节。
+
+  - date: "2023-10-11"
+    event: 杨某媛在网络发帖曝光，称事发后多次联系学院老师维权未果，遂选择公开。
+    source: 中国青年报 2023-10-12
+    url: "http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html"
+    tier: reports
+
+  - date: "2023-10-11"
+    event: 武汉大学官方微博当日深夜发布情况说明，称已成立工作组对整个事件进行调查。
+    source: 武汉大学官方微博 / 中国青年报 2023-10-12
+    url: "http://news.cyol.com/gb/articles/2023-10/12/content_mOmEKWhVvx.html"
+    tier: facts
+    quote: "学校关注到有学生举报遭受性骚扰的有关网络信息，已成立工作组，对整个事件进行调查。"
+
+  - date: "2023-10-13"
+    event: 武汉大学发布处理通报，经调查核实，决定给予 2022 级本科生肖某某记过处分。
+    source: 央广网 2023-10-13
+    url: "https://www.cnr.cn/hubei/yw/20231013/t20231013_526450383.shtml"
+    tier: facts
+
+  - date: "2025-07-25"
+    event: 湖北省武汉经济技术开发区人民法院一审判决，驳回杨某媛的全部诉讼请求。
+    source: 武汉大学 2025-09-20 通报（央视新闻客户端）
+    url: "http://news.cyol.com/gb/articles/2025-09/20/content_PbnYa8fx9J.html"
+    tier: facts
+    status: 判决书全文 pending-source
+
+  - date: "2025-07-31"
+    event: 武汉大学校长张平文就"学生性骚扰指控被驳回"回应，称正在处理。
+    source: 南方都市报 / 澎湃新闻 2025-07-31
+    url: "https://m.thepaper.cn/newsDetail_forward_31277209"
+    tier: reports
+
+  - date: "2025-08-02"
+    event: 武汉大学通报已组建专班，对肖某某纪律处分、杨某某学位论文等全面调查复核。
+    source: 中国青年报 2025-08-02
+    url: "https://news.cyol.com/gb/articles/2025-08/02/content_77dK44seEN.html"
+    tier: facts
+
+  - date: "2025-09-17"
+    event: 湖北省武汉市中级人民法院二审判决，维持一审判决，驳回杨某媛上诉。
+    source: 央广网 2025-09-20 / 武汉大学通报
+    url: "http://www.cnr.cn/hubei/yw/20250920/t20250920_527369393.shtml"
+    tier: facts
+    status: 判决书全文 pending-source
+
+  - date: "2025-09-20"
+    event: 武汉大学发布调查复核通报：撤销肖某瑫记过处分；维持授予杨某媛硕士学位；认定未发现学术不端但存在百余处不规范；问责 3 名党务干部，导师郭某飞被约谈并暂停招生资格两年；点名否定 8 条网传信息。
+    source: 央视新闻客户端（中国青年报转载）
+    url: "http://news.cyol.com/gb/articles/2025-09/20/content_PbnYa8fx9J.html"
+    tier: facts
+
+  - date: "2025-09"
+    event: 杨某媛硕士学位论文在中国知网下架，校方与知网就下架原因作出回应。
+    source: 新黄河 / 济南时报
+    url: "https://www.jinantimes.com.cn/news-7-5135455.html"
+    tier: reports
+    status: 具体下架日期 pending-source

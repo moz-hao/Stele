@@ -1,0 +1,93 @@
+[
+  {
+    "dir": "Exhibit-001-trust-web3",
+    "url": "https://trust-web3.cn/",
+    "captured_at": "2026-10-29T06:28:28.930Z",
+    "human_time": "2026/10/29 14:28:28",
+    "http": 200,
+    "title": "Trust Wallet官方下载安装 | 多币种数字货币钱包 | 安全去中心化钱包",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "text_head": "Home Download About Service Wallet Contact News 🌐 English A PRACTICAL SELF-CUSTODY GUIDE Understand Trust Wallet before you connect, sign or send Explore how Trust Wallet supports digital assets and Web3, learn what self-custody requires, and use verified download routes to avoid fake applicati",
+    "screenshot": "ok",
+    "blocked_requests": 0,
+    "bytes": 659895
+  },
+  {
+    "dir": "Exhibit-002-metamaskwallet",
+    "url": "https://metamaskwallet.com.cn/",
+    "captured_at": "2026-10-29T06:28:34.647Z",
+    "human_time": "2026/10/29 14:28:34",
+    "http": 200,
+    "title": "MetaMask官网 - 全球领先的以太坊&Web3钱包",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "text_head": "资讯 Chrome iOS Android 为您的浏览器安装MetaMask 安装 Chrome 版 MetaMask MetaMask：打开区块链世界的第一把钥匙 2025-11-11 解锁去中心化金融新大门 MetaMask作为一款广受欢迎的加密钱包，在区块链领域发挥着举足轻重的作用。它本质上是一个数字钱包，却又不仅仅局限于传统意义上的存储功能。MetaMask为用户提供了一个安... Read More MetaMask在SocialFi和GameFi中的应用场景分析 2025-11-10 深入探究MetaMask在新兴金融场景的作用 MetaMask作为一款知名的加密钱包，在区块",
+    "screenshot": "ok",
+    "blocked_requests": 0,
+    "bytes": 411466
+  },
+  {
+    "dir": "Exhibit-003-coinbasewallet",
+    "url": "http://coinbasewallet.com.cn/",
+    "captured_at": "2026-10-29T06:28:41.677Z",
+    "human_time": "2026/10/29 14:28:41",
+    "http": 200,
+    "title": "Coinbase - 安全加密钱包,购买和出售比特币、以太坊及其他可靠币种",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "text_head": "",
+    "screenshot": "ok",
+    "blocked_requests": 0,
+    "bytes": 19696
+  },
+  {
+    "dir": "Exhibit-004-trustwallllet",
+    "url": "http://trustwallllet.cn/",
+    "captured_at": "2026-10-29T06:28:46.940Z",
+    "human_time": "2026/10/29 14:28:46",
+    "http": 200,
+    "title": "tp官方正版下载|TP官方下载安卓最新版本2025·(TPWallet)-TP官网版APP正版|你的通用数字钱包",
+    "password_inputs": 0,
+    "inputs": 1,
+    "forms": 1,
+    "text_head": "首页 tp钱包官网下载 tp钱包官方下载 tp钱包 tp钱包app下载 tp钱包官网 tp钱包下载 热点推荐 TP钱包官方APP下载及使用全流程解析 TP钱包USDT跨链转账避坑指南：选对链省手续费 TokenPocket官网下载后怎么确保能用？ TPWallet官网下载与使用指南：个人资产高效管理 TP钱包官方APP下载及使用全流程解析 TP钱包USDT跨链转账避坑指南：选对链省手续费 TokenPocket官网下载后怎么确保能用？ TPWallet官网下载与使用指南：个人资产高效管理 TP钱包官方APP下载及使用全流程解析 TP钱包USDT跨链转账避坑指南：选对链省手续费 Toke",
+    "screenshot": "ok",
+    "blocked_requests": 0,
+    "bytes": 458390
+  },
+  {
+    "dir": "Exhibit-005-token-imtoken",
+    "url": "http://token.hk.cn/",
+    "captured_at": "2026-10-29T06:28:52.503Z",
+    "human_time": "2026/10/29 14:28:52",
+    "error": "page.goto: Timeout 45000ms exceeded.",
+    "screenshot": "placeholder"
+  },
+  {
+    "dir": "Exhibit-006-tokenpocket",
+    "url": "http://tokenpocket.hk.cn/",
+    "captured_at": "2026-10-29T06:29:37.673Z",
+    "human_time": "2026/10/29 14:29:37",
+    "error": "page.goto: Timeout 45000ms exceeded.",
+    "screenshot": "placeholder"
+  },
+  {
+    "dir": "Exhibit-007-neteasepay",
+    "url": "http://neteasepay.cn/",
+    "captured_at": "2026-10-29T06:30:22.813Z",
+    "human_time": "2026/10/29 14:30:22",
+    "http": 200,
+    "title": "网易支付",
+    "password_inputs": 0,
+    "inputs": 0,
+    "forms": 0,
+    "text_head": "首页 商户入口 工业和信息化部备案系统网站 备案编号：浙B2-20100458 网易支付（杭州）有限公司版权所有 ©1997-2025",
+    "screenshot": "ok",
+    "blocked_requests": 0,
+    "bytes": 781274
+  }
+]

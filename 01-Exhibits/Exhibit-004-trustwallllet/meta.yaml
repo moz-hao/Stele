@@ -1,0 +1,34 @@
+# 自动生成于 scripts/gen-meta.mjs，手工修改请同步更新生成器
+id: EX-004
+dir: Exhibit-004-trustwallllet
+type: phishing-crypto-wallet
+status: active
+impersonates: "Trust Wallet（typo-squatting）"
+official_domain: trustwallet.com
+domains:
+  - "trustwallllet[.]cn"
+payload: []
+decoy_links: []
+hosting: "self-hosted (.cn)"
+verified:
+  at: "2026-10-29T15:00:00+08:00"
+  http_status: 200
+  page_title: "tp官方正版下载|TP官方下载安卓最新版本2025·(TPWallet)-TP官网版APP正版|你的通用数字钱包"
+  bytes: 51782
+  method: curl + browser UA
+source:
+  name: OpenPhish public feed
+  cross_check: Phishing.Database (MIT)
+  verified_at: "2026-10-29T15:00:00+08:00"
+evidence:
+  note: "域名 trustwallllet[.]cn 以三个连续 l 拼写伪装 trust wallet（typo-squatting），页面自称\"TP官方正版下载|TP官方下载安卓最新版本\"，属仿冒钱包下载站。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"

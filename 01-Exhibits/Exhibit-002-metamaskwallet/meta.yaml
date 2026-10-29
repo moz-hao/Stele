@@ -1,0 +1,37 @@
+# 自动生成于 scripts/gen-meta.mjs，手工修改请同步更新生成器
+id: EX-002
+dir: Exhibit-002-metamaskwallet
+type: phishing-crypto-wallet
+status: active
+impersonates: "MetaMask"
+official_domain: metamask.io
+domains:
+  - "metamaskwallet[.]com[.]cn"
+payload:
+  - "https://crypto-wallet.im/MetaMask.apk"
+decoy_links: []
+hosting: "self-hosted (.com.cn)"
+verified:
+  at: "2026-10-29T15:00:00+08:00"
+  http_status: 200
+  page_title: "MetaMask官网 - 全球领先的以太坊&Web3钱包"
+  bytes: 19465
+  method: curl + browser UA
+source:
+  name: OpenPhish public feed
+  cross_check: Phishing.Database (MIT)
+  verified_at: "2026-10-29T15:00:00+08:00"
+evidence:
+  note: "页面标题\"MetaMask官网 - 全球领先的以太坊&Web3钱包\"，域名 metamaskwallet[.]com[.]cn 非官方（官方为 metamask.io），并提供非官方 APK。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反电信网络诈骗法第38条"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  abuse_targets:
+    - "云服务商/域名注册商：对应托管方"
+  local: "report/12377.md"

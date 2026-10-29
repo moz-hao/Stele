@@ -1,0 +1,35 @@
+# 自动生成于 scripts/gen-meta.mjs，手工修改请同步更新生成器
+id: EX-007
+dir: Exhibit-007-neteasepay
+type: phishing-domestic-payment
+status: active
+impersonates: "网易支付"
+official_domain: pay.163.com
+domains:
+  - "neteasepay[.]cn"
+payload: []
+decoy_links: []
+hosting: "self-hosted (.cn)"
+verified:
+  at: "2026-10-29T15:00:00+08:00"
+  http_status: 200
+  page_title: "网易支付"
+  bytes: 2183
+  method: curl + browser UA
+source:
+  name: OpenPhish public feed
+  cross_check: Phishing.Database (MIT)
+  verified_at: "2026-10-29T15:00:00+08:00"
+evidence:
+  note: "页面标题\"网易支付\"，并直接盗用网易支付（杭州）有限公司名称与 ICP 备案号 浙B2-20100458。该页为约 2KB 静态仿冒页，未见登录表单，\"正在收取凭据\"这一环节未被直接观测到。"
+legal:
+  classification: 诈骗类
+  statutes:
+    - "刑法第266条（诈骗罪）"
+    - "反不正当竞争法第6条"
+    - "互联网信息服务管理办法"
+report:
+  entry_12377: "https://www.12377.cn/jbxzxq/zpljbxzxq.html"
+  entry_12321: "https://www.12321.cn/"
+  entry_cyberpolice: "https://cyberpolice.mps.gov.cn/wfjb/"
+  local: "report/12377.md"
